@@ -17,6 +17,10 @@ Developed and tested in an Ubuntu 22.04 and ROS2 Humble environment.
 - `sudo apt install ros-humble-joint-state-publisher`
 - `sudo apt install xterm`
 
+## Bugs
+Change urdf path to your own path file in wheeled_robot.urdf/
+- `<parameters>/home/radu/four_ws_vehicle/ws/install/four_ws_vehicle_simulation/share/four_ws_vehicle_simulation/models/config/controllers.yaml</parameters>`
+
 ## Run instructions
 - `cd four_ws_vehicle/ws`
 - `colcon build`
